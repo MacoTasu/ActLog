@@ -1,0 +1,250 @@
+/* created 2012.9 */
+@charset "UTF-8";
+
+/* ====================================
+	reset
+======================================= */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, q, pre, table, caption, colgroup, col, tbody, thead, tfoot, tr, th, td, ul, ol, li, dl, dt, dd, form, fieldset, legend, label, span, a, img, em, ins, del, cite, abbr, sup, sub, dfn, code, var, samp, kbd, object, script, noscript, style, iframe, embed, param, map, area,
+menu, hr, address, small, strong, i, b,
+article, aside, figure, footer, header, hgroup, nav, section, figcaption, time, video, audio, mark, ruby, rt, rp, bdo, source, canvas, details, summary, command,
+datalist, keygen, output, progress, meter {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+address, article, aside, figure, figcaption, footer, header, hgroup, hr, legend, nav, section, summary	{
+	display: block;
+}
+
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+li	{ list-style: none;}
+img	{ border:none;}
+p { margin: 0 0 20px 0;}
+
+.clearfix	{ clear: both;}
+
+
+/*	general
+------------------------------------*/
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica,Verdana, "qMmpS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "lr oSVbN", "MS PGothic", sans-serif;
+}
+
+
+/*	wrap
+------------------------------------*/
+
+#wrap{
+	position:relative;
+	width:100%;
+	min-width:1110px;
+	max-width:1920px;
+	margin:0;
+}
+
+
+/*	contents
+------------------------------------*/
+
+#main {
+	position:relative;
+	margin:0;
+	width:100%;
+}
+
+
+/*	section
+------------------------------------*/
+
+#section {
+	background: url(/static/img/bg.jpg) 0 0 no-repeat;
+	position:relative;
+	margin-top:0;
+	height: 500px;
+	width:inherit;
+	background-color:#F7EFE4;
+	background-size:100%;
+}
+
+#section_main {
+	width:800px;
+	margin:auto;
+}
+
+.ppp {
+	position:absolute;
+	margin-top:-55px;
+	margin-left:0px;
+	color:#333;
+	font-size:14px;
+}
+
+.logo {
+	margin-top:90px;
+	margin-left:-38px;
+}
+
+.login {
+	float:left;
+	position:absolute;
+	margin-top:180px;
+	margin-left:180px;
+}
+
+.tegakilogin {
+	position:absolute;
+	margin-top:185px;
+	margin-left:10px;
+}
+
+.tegakituto {
+	float:left;
+	position:absolute;
+	margin-top:300px;
+	margin-left:-260px;
+}
+
+
+/*	section2
+------------------------------------*/
+
+#section2 {
+	position:relative;
+	background: url(/static/img/bg_tutorial.jpg) 0 0 no-repeat;
+	margin-top:0;
+	height: 620px;
+	width:inherit;
+	background-size:100%;
+}
+
+#section2_main {
+	width:800px;
+	margin:auto;
+	padding:40px;
+}
+
+.wal {
+	float:left;
+	position:relative;
+	margin-top:50px;
+}
+
+.p1 {
+	position:absolute;
+	margin-top:90px;
+	color:#FFF;
+	font-size:12px;
+}
+
+.what {
+	float:left;
+	position:relative;
+	margin-top:110px;
+}
+
+.p2left {
+	position:relative;
+	float:left;
+	width:158px;
+	margin-top:50px;
+	color:#FFF;
+	font-size:12px;
+	line-height:22px;
+	padding:0 22px 0 0;
+}
+
+.p2 {
+	position:relative;
+	float:left;
+	width:158px;
+	margin-top:50px;
+	color:#FFF;
+	font-size:12px;
+	line-height:22px;
+	padding:0 26px 0 26px;
+}
+
+.p2right {
+	position:relative;
+	float:left;
+	width:158px;
+	margin-top:50px;
+	color:#FFF;
+	font-size:12px;
+	line-height:22px;
+	padding:0 0 0 22px;
+}
+
+
+
+/*	section3
+------------------------------------*/
+
+#section3 {
+	position:relative;
+	background: url(/static/img/bg.jpg) 0 0 no-repeat;
+	margin-top:0;
+	height: 500px;
+	width:inherit;
+	background-color:#900;
+	background-size:100%;
+}
+
+#section3_main {
+	width:800px;
+	margin:auto;
+	padding:40px;
+}
+
+.led {
+	position:relative;
+	margin:40px 0 0 650px;
+}
+
+.lets {
+	position:relative;
+	margin:20px 0 0 110px;
+}
+
+.arrow {
+	float:left;
+	margin:90px 0 0 190px;
+}
+
+.login2 {
+	float:left;
+	margin:80px 0 0 30px;
+}
+
+
+/*	bottom
+------------------------------------*/
+
+#bottom {
+	position:relative;
+	margin-top:0;
+	height: 40px;
+	width:inherit;
+	background-color:#222;
+}
+
+.copy {
+	position:absolute;
+	margin-top:15px;
+	width:100%;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+}

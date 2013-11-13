@@ -1,84 +1,77 @@
-: cascade "include/layout.tx"
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+	<title>Actlog</title>
+	<link rel="shortcut icon" type="img/x-icon" href="/static/img/favi.ico" /><!-- ファビコンいれる -->
+	<link rel="stylesheet" href="/static/css/style.css" />
+</head>
 
-: override content -> {
+<body>
 
-<h1 style="padding: 70px; text-align: center; font-size: 80px; line-height: 1; letter-spacing: -2px;">Hello, Amon2 world!</h1>
+<!-- wrap -->
+<div id="wrap">
 
-<hr />
+	<!-- main -->
+	<div id="main">
 
-<style>
-    .marketing .row {
-        margin-top: 20px;
-    }
-</style>
-<div class="marketing">
-    <h1 style="text-align: center; font-size: 280%;">Battery Included?</h1>
-
-    <div class="row">
-        <div class="col-lg-4">
-            <h2><i class="glyphicon glyphicon-ok"></i> CSS Library</h2>
-            <div>
-                Current version of Amon2 using twitter's bootstrap.css as a default CSS library.<br />
-                If you want to learn it, please access to <a href="http://twitter.github.com/bootstrap/">twitter.github.com/bootstrap/</a>
-            </div>
+        <!-- section -->
+        <div id="section">
+        <div id="section_main">
+        
+        <img src="/static/img/top_logo.png" class="logo" width="400" height="230" alt="Actlog">
+        <a href="/login/facebook"><img src="/static/img/btn_fb_login.png" class="login" width="261" height="58" alt="facebook login"></a>
+        <img src="/static/img/tegaki_login.png" class="tegakilogin" width="121" height="39" alt="login">
+        <p class="ppp">作品ごとにログを残して、人に、自分に、役立てよう。</p>
+        <img src="/static/img/tegaki_tutorial.png" class="tegakituto" width="130" height="162" alt="tutorial">
+        
         </div>
-
-        <div class="col-lg-4">
-            <h2><i class="glyphicon glyphicon-ok"></i> JS Library</h2>
-            <div>
-                <a href="http://jquery.com/">jQuery</a> included.
-                <ul>
-                    <li>es5-shim.min.js</li>
-                    <li>micro-location.js</li>
-                    <li>micro_template.js</li>
-                    <li>sprintf-0.7-beta1.js</li>
-                    <li>strftime.js</li>
-                </ul>
-            </div>
         </div>
-
-        <div class="col-lg-4">
-            <h2><i class="glyphicon glyphicon-ok"></i> Template Engine</h2>
-            <div>
-                Amon2 uses <B>Text::Xslate</B>(Kolon) as a primary template engine.<br />
-                But you can use any template engine easily.
-            </div>
+	<!-- /section -->
+    
+        <!-- section2 -->
+        <div id="section2">
+        <div id="section2_main">
+        
+        <img src="/static/img/whatactlog.png" class="wal" width="201" height="26" alt="What's ActLog?">
+        <p class="p1">ActLogは、あなたのブックマークを作品ごとにまとめるサービスです。</p>
+        <img src="/static/img/what.png" class="what" width="781" height="142" alt="What's ActLog?">
+        <p class="p2left">あなたはPCを使って何か作っているものがあります。</p>
+        <p class="p2">参考にしたwebサイトをActLogに登録していきます。</p>
+        <p class="p2">あなたの作品ごとに、あなたが利用した情報がまとまっていきます。</p>
+        <p class="p2right">あなたのLogは、みんなの役に立ちます！</p>
+        
         </div>
+        </div>
+        <!-- /section2 -->
+        
+        <!-- section3 -->
+        <div id="section3">
+        <div id="section3_main">
+        
+        <img src="/static/img/led.png" class="led" width="44" height="62" alt="電球">
+        <img src="/static/img/letsgo.png" class="lets" width="579" height="40" alt="さあ、あなたも！">
+        <img src="/static/img/arrow.png" class="arrow" width="73" height="34" alt="→">
+        <a href="/login/facebook"><img src="/static/img/btn_fb_login.png" class="login2" width="261" height="58" alt="facebook login"></a>
+        
+        </div>
+        </div>
+        <!-- /section3 -->
+
+        <!-- bottom -->
+        <div id="bottom">
+        
+        <p class="copy">
+        Copyright © Makoto Shiga All Rights Reserved.
+        </p>
+        
+        </div>
+        <!-- /bottom -->
+    
     </div>
-
-    <div class="row">
-        <div class="col-lg-4">
-            <h2><i class="glyphicon glyphicon-ok"></i> O/R Mapper?</h2>
-            <div>
-                There is no O/R Mapper support. But I recommend use Teng.<br />
-                You can integrate Teng very easily.<br />
-                Refer to <a href="http://amon.64p.org/database.html#teng">this page</a> for more details.
-            </div>
-        </div>
-    </div>
+    <!-- /main -->
+    
 </div>
+<!-- /wrap -->
 
-<hr />
-
-<div class="row">
-    <h1 style="text-align: center;">Amon2 is right for you if ...</h1>
-    <div class="col-lg-24">
-        <ul>
-        <li>You need exceptional performance.</li>
-        <li>You want a framework with a small footprint.</li>
-        <li>You want a framework that requires nearly zero configuration.</li>
-        </ul>
-    </div>
-</div>
-
-<hr />
-
-<section class="row">
-    <div class="col-lg-12">
-        <h1>Documents?</h1>
-        <p>Complete docs are available on <a href="http://amon.64p.org/">amon.64p.org</a></p>
-        <p>And there are module specific docs on <a href="https://metacpan.org/release/Amon2">CPAN</a></p>
-    </div>
-</section>
-
-: }
+</body>
+</html>
